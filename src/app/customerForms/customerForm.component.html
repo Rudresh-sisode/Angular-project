@@ -1,0 +1,48 @@
+<br/>
+<div class='panel panel-primary'>
+    <div class="panel-heading">
+        Customer form
+    </div>
+    <div class="panel-body">
+        <form>
+            <div class="form-group">
+                <label for="fname">FirstName</label>
+                <input type="text" class="form-control" name="firstname" id="fname"/>
+            <div class="alert alert-danger" *ngIf="">
+                first name is required
+            </div>
+            </div>
+
+            <div class="form-group">
+                <label for="lname">LastName</label>
+                <input type="text" class="form-control" name="lasttname" id="lname"/>
+            <div class="alert alert-danger" *ngIf="">
+                last Name is required
+            </div>
+            </div>
+
+            <div class="form-group">
+                    <label for="mail">Email</label>
+                    <input type="text" class="form-control" name="email" id="mail"/>
+                <div class="alert alert-danger" *ngIf="">
+                    Email is required
+                </div>
+                </div>
+
+                <div class="form-group">
+                        <label for="pwd">Password</label>
+                        <input type="password" class="form-control" name="password" id="pwd"/>
+                    <div class="alert alert-danger" *ngIf="">
+                        Password is required
+                    </div>
+                    </div>
+
+            <button type="submit" class="btn btn-success">
+                Submit
+            </button>&nbsp;
+            <button type="reset" class="btn btn-danger">
+                    Reset
+                </button>
+        </form>
+    </div>
+</div>
